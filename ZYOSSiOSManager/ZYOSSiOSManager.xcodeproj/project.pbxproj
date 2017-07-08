@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4004EB0D1F1089D30005E7AD /* ZYUploadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4004EB0C1F1089D30005E7AD /* ZYUploadModel.swift */; };
+		4004EB0F1F108A8E0005E7AD /* ZYDownloadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4004EB0E1F108A8E0005E7AD /* ZYDownloadModel.swift */; };
+		40FFA6781F106B7B00211853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FFA6771F106B7B00211853 /* AppDelegate.swift */; };
+		40FFA67A1F106B7B00211853 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FFA6791F106B7B00211853 /* ViewController.swift */; };
+		40FFA67D1F106B7B00211853 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FFA67B1F106B7B00211853 /* Main.storyboard */; };
+		40FFA67F1F106B7B00211853 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40FFA67E1F106B7B00211853 /* Assets.xcassets */; };
+		40FFA6821F106B7B00211853 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FFA6801F106B7B00211853 /* LaunchScreen.storyboard */; };
+		40FFA68C1F106C9E00211853 /* ZYOSSiOSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FFA68B1F106C9E00211853 /* ZYOSSiOSManager.swift */; };
+		40FFA68F1F106F5C00211853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FFA68E1F106F5C00211853 /* Foundation.framework */; };
+		6188C540F413EE35687CDB81 /* Pods_ZYOSSiOSManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECF950E9F6D273AFFB1E965 /* Pods_ZYOSSiOSManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4004EB0C1F1089D30005E7AD /* ZYUploadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYUploadModel.swift; sourceTree = "<group>"; };
+		4004EB0E1F108A8E0005E7AD /* ZYDownloadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYDownloadModel.swift; sourceTree = "<group>"; };
+		40FFA6741F106B7B00211853 /* ZYOSSiOSManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYOSSiOSManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FFA6771F106B7B00211853 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40FFA6791F106B7B00211853 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40FFA67C1F106B7B00211853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40FFA67E1F106B7B00211853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40FFA6811F106B7B00211853 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40FFA6831F106B7B00211853 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FFA68B1F106C9E00211853 /* ZYOSSiOSManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYOSSiOSManager.swift; sourceTree = "<group>"; };
+		40FFA68E1F106F5C00211853 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		759593F8659BBBAB598F19FD /* Pods-ZYOSSiOSManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYOSSiOSManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYOSSiOSManager/Pods-ZYOSSiOSManager.release.xcconfig"; sourceTree = "<group>"; };
+		BFF91254E2CE1ACD2BCF43A4 /* Pods-ZYOSSiOSManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYOSSiOSManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYOSSiOSManager/Pods-ZYOSSiOSManager.debug.xcconfig"; sourceTree = "<group>"; };
+		CECF950E9F6D273AFFB1E965 /* Pods_ZYOSSiOSManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZYOSSiOSManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40FFA6711F106B7B00211853 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FFA68F1F106F5C00211853 /* Foundation.framework in Frameworks */,
+				6188C540F413EE35687CDB81 /* Pods_ZYOSSiOSManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40FFA66B1F106B7B00211853 = {
+			isa = PBXGroup;
+			children = (
+				40FFA6761F106B7B00211853 /* ZYOSSiOSManager */,
+				40FFA6751F106B7B00211853 /* Products */,
+				40FFA68D1F106F5C00211853 /* Frameworks */,
+				BA9BFC61DD9DB787E8565FA4 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		40FFA6751F106B7B00211853 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40FFA6741F106B7B00211853 /* ZYOSSiOSManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40FFA6761F106B7B00211853 /* ZYOSSiOSManager */ = {
+			isa = PBXGroup;
+			children = (
+				40FFA6771F106B7B00211853 /* AppDelegate.swift */,
+				40FFA6791F106B7B00211853 /* ViewController.swift */,
+				40FFA67B1F106B7B00211853 /* Main.storyboard */,
+				40FFA67E1F106B7B00211853 /* Assets.xcassets */,
+				40FFA6801F106B7B00211853 /* LaunchScreen.storyboard */,
+				40FFA6831F106B7B00211853 /* Info.plist */,
+				40FFA6891F106C8A00211853 /* ZYOSSiOSManager */,
+			);
+			path = ZYOSSiOSManager;
+			sourceTree = "<group>";
+		};
+		40FFA6891F106C8A00211853 /* ZYOSSiOSManager */ = {
+			isa = PBXGroup;
+			children = (
+				40FFA68B1F106C9E00211853 /* ZYOSSiOSManager.swift */,
+				40FFA68A1F106C8A00211853 /* Model */,
+			);
+			path = ZYOSSiOSManager;
+			sourceTree = "<group>";
+		};
+		40FFA68A1F106C8A00211853 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4004EB0C1F1089D30005E7AD /* ZYUploadModel.swift */,
+				4004EB0E1F108A8E0005E7AD /* ZYDownloadModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40FFA68D1F106F5C00211853 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40FFA68E1F106F5C00211853 /* Foundation.framework */,
+				CECF950E9F6D273AFFB1E965 /* Pods_ZYOSSiOSManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA9BFC61DD9DB787E8565FA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFF91254E2CE1ACD2BCF43A4 /* Pods-ZYOSSiOSManager.debug.xcconfig */,
+				759593F8659BBBAB598F19FD /* Pods-ZYOSSiOSManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40FFA6731F106B7B00211853 /* ZYOSSiOSManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40FFA6861F106B7B00211853 /* Build configuration list for PBXNativeTarget "ZYOSSiOSManager" */;
+			buildPhases = (
+				6EEBE24324CA20A138546252 /* [CP] Check Pods Manifest.lock */,
+				40FFA6701F106B7B00211853 /* Sources */,
+				40FFA6711F106B7B00211853 /* Frameworks */,
+				40FFA6721F106B7B00211853 /* Resources */,
+				F3F25C1B027DBA70040B230D /* [CP] Embed Pods Frameworks */,
+				187F4B1090C6A761E251CA68 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYOSSiOSManager;
+			productName = ZYOSSiOSManager;
+			productReference = 40FFA6741F106B7B00211853 /* ZYOSSiOSManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40FFA66C1F106B7B00211853 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "朱益锋";
+				TargetAttributes = {
+					40FFA6731F106B7B00211853 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6PV3E3Y4LF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 40FFA66F1F106B7B00211853 /* Build configuration list for PBXProject "ZYOSSiOSManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40FFA66B1F106B7B00211853;
+			productRefGroup = 40FFA6751F106B7B00211853 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40FFA6731F106B7B00211853 /* ZYOSSiOSManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40FFA6721F106B7B00211853 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FFA6821F106B7B00211853 /* LaunchScreen.storyboard in Resources */,
+				40FFA67F1F106B7B00211853 /* Assets.xcassets in Resources */,
+				40FFA67D1F106B7B00211853 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		187F4B1090C6A761E251CA68 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYOSSiOSManager/Pods-ZYOSSiOSManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6EEBE24324CA20A138546252 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3F25C1B027DBA70040B230D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZYOSSiOSManager/Pods-ZYOSSiOSManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40FFA6701F106B7B00211853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4004EB0F1F108A8E0005E7AD /* ZYDownloadModel.swift in Sources */,
+				40FFA68C1F106C9E00211853 /* ZYOSSiOSManager.swift in Sources */,
+				40FFA67A1F106B7B00211853 /* ViewController.swift in Sources */,
+				40FFA6781F106B7B00211853 /* AppDelegate.swift in Sources */,
+				4004EB0D1F1089D30005E7AD /* ZYUploadModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40FFA67B1F106B7B00211853 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40FFA67C1F106B7B00211853 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40FFA6801F106B7B00211853 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40FFA6811F106B7B00211853 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40FFA6841F106B7B00211853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40FFA6851F106B7B00211853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40FFA6871F106B7B00211853 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF91254E2CE1ACD2BCF43A4 /* Pods-ZYOSSiOSManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PV3E3Y4LF;
+				INFOPLIST_FILE = ZYOSSiOSManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuyifeng.ZYOSSiOSManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		40FFA6881F106B7B00211853 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 759593F8659BBBAB598F19FD /* Pods-ZYOSSiOSManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6PV3E3Y4LF;
+				INFOPLIST_FILE = ZYOSSiOSManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhuyifeng.ZYOSSiOSManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40FFA66F1F106B7B00211853 /* Build configuration list for PBXProject "ZYOSSiOSManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FFA6841F106B7B00211853 /* Debug */,
+				40FFA6851F106B7B00211853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40FFA6861F106B7B00211853 /* Build configuration list for PBXNativeTarget "ZYOSSiOSManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FFA6871F106B7B00211853 /* Debug */,
+				40FFA6881F106B7B00211853 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40FFA66C1F106B7B00211853 /* Project object */;
+}

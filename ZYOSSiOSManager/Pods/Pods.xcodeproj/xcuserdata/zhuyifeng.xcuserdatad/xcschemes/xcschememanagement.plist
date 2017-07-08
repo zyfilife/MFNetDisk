@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AliyunOSSiOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-ZYOSSiOSManager.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Realm.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>RealmSwift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>386E014435289A22CA4EA66A1ED90FC9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6EA691F5FF7AAF901DAE81967190E472</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D1E0F20AE110F8165647CC8A16325CEB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EF6132A33036C99C1E1CF394E7F60205</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F59E488D30F6E23C4842DD5398335CD6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
