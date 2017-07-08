@@ -1,12 +1,12 @@
 # ZYOSSiOSManager
-###前期准备
+### 前期准备
 1.[OSS对象存储开发文档](https://help.aliyun.com/document_detail/31817.html?spm=5176.doc32055.6.539.FrDX0V)
 2.[官方Demo](https://github.com/aliyun/alicloud-ios-demo?spm=5176.doc32055.2.4.uW81IT)
-###整理思路
-####需求分析
+### 整理思路
+#### 需求分析
 1.支持暂停任务和继续任务
 2.支持后台下载或上传
-####业务逻辑
+#### 业务逻辑
 1.明确上传和下载要用到的请求类型
 >断点续传
 >`OSSResumableUploadRequest`
@@ -38,7 +38,7 @@
 >`UITableViewController`
 >`UITableViewCell`
 
-####业务流程
+#### 业务流程
 1.程序启动时
 >创建`LoadManager`单例
 
